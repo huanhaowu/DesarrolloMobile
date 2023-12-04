@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lab04/card_3.dart';
 import 'package:lab04/card_2.dart';
 import 'package:lab04/card_1.dart';
 
@@ -11,14 +12,12 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
 
-  int selectedIndex = 1;
+  int selectedIndex = 2;
 
   List<Widget> pages = [
     Card1(),
     Card2(),
-    Container(
-      color: Colors.red,
-    ),
+    Card3(),
   ];
 
   void selectedIndexChanged(int index) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class meteo_section extends StatelessWidget {
-  const meteo_section({super.key, Icon icon_text, Text text1, Text text2});
+  const meteo_section({super.key});
 
   @override
   Widget build(BuildContext context) {
